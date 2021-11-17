@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353540006842",
+    "project_id": "fazzapplication",
+    "storage_bucket": "fazzapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353540006842:android:42eaa525cea6d385f43383",
+        "android_client_info": {
+          "package_name": "com.example.fazzapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353540006842-c19al7g36rbnc2kf7log5k3mscoao9kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARPxaeC2UkrZcXCgTPDj58EuPSR9O7xz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353540006842-c19al7g36rbnc2kf7log5k3mscoao9kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

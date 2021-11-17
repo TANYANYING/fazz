@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/purchased1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cart List"
+            android:textColor="#ff3d80"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="viewStart"
+            android:paddingStart="16dp"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/Messagepurchased"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:layout_weight="1"
+            android:text="Item purchsed successfully, Shop are packing your item :)"
+            android:textAlignment="center"
+            android:textColor="#ff3d80"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="15dp" >
+        <Button
+            android:id="@+id/OrderHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order History" />
+
+        </TableRow>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
